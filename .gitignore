@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# YOLO models (will be downloaded automatically)
+*.pt
+!yolov8n.pt  # Keep if needed, but usually downloaded automatically
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+restricted_zones.json
+
+# Tests
+tests/
+test_results.json
+.pytest_cache/
+__pycache__/
+*.pyc
+
+run_tests.py
+test_app.py
